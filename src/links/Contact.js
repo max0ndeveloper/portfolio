@@ -1,15 +1,27 @@
 import React from "react";
 
 export const Contact = () => {
-	return(
-			<div className="content">
-				<div className="container">
-					<div className="content__text">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, sint.
-						</p>
-					</div>
-				</div>
-			</div>
-	)
+  return (
+      <section className="contact">
+        <div className="container flex">
+          <div className="contact-wrapper">CONTACT ME</div>
+          <div className="text-wrapper">
+            <div className="flex contact">
+                <hr/>
+              <div className="contact__form">
+                <form>
+
+                  <div className="form__text">My Skype: maximon61
+                  </div>
+
+	                <div className="form__text">My e-mail: maxim2003s@gmail.com
+	                </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  )
 };

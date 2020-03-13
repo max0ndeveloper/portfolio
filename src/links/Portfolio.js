@@ -9,6 +9,7 @@ export const Portfolio = ({history}) => {
 					<div className="card">
 						My Works
 					</div>
+					<hr/>
 
 					<PortfolioCard title='React'
 					               // history={history}
